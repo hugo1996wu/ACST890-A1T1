@@ -4,8 +4,8 @@
 import math as mt
 #Ask user to input principal, interest rate and time
 #Assign them to variables with correct type
-P=int(input('Input invested amount:'))
+P=float(input('Input invested amount:'))
 r=float(input('Input interest rate (continuously compounded):'))
-t=int(input('Input the number of years:'))
+t=float(input('Input the number of years:'))
 #Print desired value
 print(P*mt.e**(r*t))
